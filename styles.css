@@ -271,21 +271,11 @@ h1 {
         height: 450px;
     }
 
-    .header-img {
-        /* height: 700px;
-        transform: translate(-20%);
-        width: unset; */
-        width: 100%;
-    }
-
-    .mt-custom {
-        margin-top: 140px !important;
-    }
+   
+}
+@media (max-width: 1140px) and (min-height:1366px){
     .parallax {
-        background-position-x: -800px !important;
-    }
-    .w-75-custom{
-        width: 100% !important;
+        background-position-x: -1200px !important;
     }
 }
 
@@ -324,30 +314,26 @@ h1 {
 
     .card-cont {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 20px;
     }
 
     .card-cont-ent {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 35px;
     }
 
     .card-cont-explorer {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 20px;
     }
 
-    .ex-img {
-        width: 75% !important;
-        margin: auto;
-        padding: 10px;
-    }
+    
 
     .ex-text {
         text-align: center !important;
@@ -364,31 +350,7 @@ h1 {
         height: 350px;
     }
 
-    .header-img {
-        /* height: 700px;
-        transform: translate(-40%);
-        width: unset !important; */
-        width: 100%;
-    }
-
-    .mt-custom {
-        margin-top: 140px !important;
-    }
-    .parallax {
-        background-position-x: -800px !important;
-    }
-    .bullet {
-        position: absolute;
-        left: -28.5px;
-        width: 20px;
-        height: 20px;
-        background-color: rgb(255, 255, 255);
-        border: 7px solid #0B0B0B;
-        border-radius: 50%;
-    }
-    .w-75-custom{
-        width: 100% !important;
-    }
+    
 }
 
 @media (max-width: 576px) {
@@ -432,36 +394,7 @@ h1 {
         height: 300px;
     }
 
-    .header-img {
-        /* height: 700px;
-        transform: translate(-40%);
-        width: unset !important; */
-        width: 100%;
-    }
-
-    .mt-custom {
-        margin-top: 140px !important;
-    }
-
-    .mt-300 {
-        margin-top: 30px !important;
-    }
-
-    .parallax {
-        background-position-x: -1000px !important;
-    }
-    .bullet {
-        position: absolute;
-        left: -28.5px;
-        width: 20px;
-        height: 20px;
-        background-color: rgb(255, 255, 255);
-        border: 7px solid #0B0B0B;
-        border-radius: 50%;
-    }
-    .w-75-custom{
-        width: 100% !important;
-    }
+    
 }
 
 
@@ -506,12 +439,7 @@ h1 {
         height: 300px;
     }
 
-    .header-img {
-        /* height: 600px;
-        transform: translate(-40%);
-        width: unset !important; */
-        width: 100%;
-    }
+   
 
     .mt-custom {
         margin-top: 140px !important;
@@ -525,22 +453,7 @@ h1 {
         margin-top: 30px !important;
     }
 
-    .parallax {
-        background-position-x: -682px !important;
-    }
-
-    .bullet {
-        position: absolute;
-        left: -28.5px;
-        width: 20px;
-        height: 20px;
-        background-color: rgb(255, 255, 255);
-        border: 7px solid #0B0B0B;
-        border-radius: 50%;
-    }
-    .w-75-custom{
-        width: 100% !important;
-    }
+    
 }
 
 
@@ -748,4 +661,154 @@ h1 {
 }
 .w-75-custom{
     width: 75%;
+}
+#ENTREPRENEUR .item-head{
+    height: 5rem;
+}
+#ENTREPRENEUR .item-body{
+    height: 7rem;
+    overflow: hidden;
+}
+@media (min-width:320px) and (max-width:400px){
+    .parallax {
+        background-position-x: -750px !important;
+    }
+
+    .bullet {
+        position: absolute;
+        left: -28.5px;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border: 7px solid #0B0B0B;
+        border-radius: 50%;
+    }
+ 
+
+    .bullet {
+        position: absolute;
+        left: -28.5px;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border: 7px solid #0B0B0B;
+        border-radius: 50%;
+    }
+    .w-75-custom{
+        width: 100% !important;
+    }
+    #ENTREPRENEUR .item-head,
+    #ENTREPRENEUR .item-body{
+        height: auto !important;
+    }
+    .card-cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    .card-cont-ent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 35px;
+    }
+
+    .card-cont-explorer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+    .w-75-custom{
+        width: 100% !important;
+    }
+    
+}
+@media (min-width:401px) and (max-width:480px){
+    .parallax {
+        background-position-x: -850px !important;
+    }
+    #ENTREPRENEUR .item-head,
+    #ENTREPRENEUR .item-body{
+        height: auto !important;
+    }
+    .card-cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+
+    .card-cont-ent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 35px;
+    }
+
+    .card-cont-explorer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+    }
+    .w-75-custom{
+        width: 100% !important;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .header-img {
+        width: 100%;
+    }
+    #ENTREPRENEUR .item-head,
+    #ENTREPRENEUR .item-body{
+        height: auto !important;
+    }
+    .mt-custom {
+        margin-top: 140px !important;
+    }
+
+    .mt-300 {
+        margin-top: 30px !important;
+    }
+
+    .parallax {
+        background-position-x: -800px !important;
+    }
+    .bullet {
+        position: absolute;
+        left: -28.5px;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(255, 255, 255);
+        border: 7px solid #0B0B0B;
+        border-radius: 50%;
+    }
+    .w-75-custom{
+        width: 100% !important;
+    }
+}
+@media (min-width:769px) and (max-width:1140px){
+    .header-img {
+        background-position-x: -1100px !important;
+        width: 100%;
+    }
+    #ENTREPRENEUR .item-head,
+    #ENTREPRENEUR .item-body{
+        height: auto !important;
+    }
+    .mt-custom {
+        margin-top: 140px !important;
+    }
+    .w-75-custom{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1024px) and (max-height:600px){
+    .parallax {
+        background-position-x: 0px !important;
+    }
 }
